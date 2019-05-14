@@ -1,0 +1,63 @@
+﻿@model StoreApplication.WebUI.Models.OrderViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    // Layout = "Details";
+}
+
+<h1>Place an order</h1>
+
+<h4>Order for @Html.DisplayFor(modelItem => Model.FirstName)</h4>
+<hr />
+@*<div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Products" class="control-label"></label>
+                    <input asp-for="Products" class="form-control" />
+                    <span asp-validation-for="Products" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>*@
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <img src="https://image.shutterstock.com/image-vector/hamburger-burger-cheeseburger-cartoon-art-260nw-303979451.jpg" style="width:200px;height:200px;">
+            <div class="form-group">
+                <label asp-for="Products" type="number" class="control-label">Burgers:</label>
+                <input asp-for="Burger" class="form-control" />
+                <name asp-for="Burger" />
+                <span asp-validation-for="Products" class="text-danger"></span>
+            </div>
+            <img src="https://png.pngtree.com/element_our/png_detail/20181207/french-fries-cartoon-png_263887.jpg" style="width:200px;height:200px;">
+            <div class="form-group">
+                <label asp-for="Products" type="number" class="control-label">Fries:</label>
+                <input asp-for="Fries" class="form-control" />
+                <name asp-for="Fries" />
+                <span asp-validation-for="Products" class="text-danger"></span>
+            </div>
+            <img src="https://cdn0.iconfinder.com/data/icons/cinema-icons-set-cartoon-style/512/a832-512.png" style="width:200px;height:200px;">
+            <div class="form-group">
+                <label asp-for="Products" type="number" class="control-label">Drinks:</label>
+                <input asp-for="Drink" class="form-control" />
+                <span asp-validation-for="Products" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Order" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+

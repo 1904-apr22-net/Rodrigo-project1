@@ -1,0 +1,12 @@
+C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.DataAccess\bin\Debug\netstandard2.0\StoreApplication.DataAccess.deps.json
+C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.DataAccess\bin\Debug\netstandard2.0\StoreApplication.DataAccess.dll
+C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.DataAccess\obj\Debug\netstandard2.0\StoreApplication.DataAccess.csproj.CoreCompileInputs.cache
+C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.DataAccess\obj\Debug\netstandard2.0\StoreApplication.DataAccess.AssemblyInfoInputs.cache
+C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.DataAccess\obj\Debug\netstandard2.0\StoreApplication.DataAccess.AssemblyInfo.cs
+C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.DataAccess\bin\Debug\netstandard2.0\StoreApplication.DataAccess.pdb
+C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.DataAccess\obj\Debug\netstandard2.0\StoreApplication.DataAccess.csprojAssemblyReference.cache
+C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.DataAccess\obj\Debug\netstandard2.0\StoreApplication.DataAccess.dll
+C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.DataAccess\obj\Debug\netstandard2.0\StoreApplication.DataAccess.pdb
+C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.DataAccess\bin\Debug\netstandard2.0\StoreApplication.Library.dll
+C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.DataAccess\bin\Debug\netstandard2.0\StoreApplication.Library.pdb
+C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.DataAccess\obj\Debug\netstandard2.0\StoreApplication.DataAccess.csproj.CopyComplete

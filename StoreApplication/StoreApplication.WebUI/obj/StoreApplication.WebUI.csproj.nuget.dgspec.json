@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.WebUI\\StoreApplication.WebUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.DataAccess\\StoreApplication.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.DataAccess\\StoreApplication.DataAccess.csproj",
+        "projectName": "StoreApplication.DataAccess",
+        "projectPath": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.DataAccess\\StoreApplication.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Associate\\.nuget\\packages\\",
+        "outputPath": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Associate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj": {
+                "projectPath": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj",
+        "projectName": "StoreApplication.Library",
+        "projectPath": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj",
+        "packagesPath": "C:\\Users\\Associate\\.nuget\\packages\\",
+        "outputPath": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Associate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.WebUI\\StoreApplication.WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.WebUI\\StoreApplication.WebUI.csproj",
+        "projectName": "StoreApplication.WebUI",
+        "projectPath": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.WebUI\\StoreApplication.WebUI.csproj",
+        "packagesPath": "C:\\Users\\Associate\\.nuget\\packages\\",
+        "outputPath": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.WebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Associate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.DataAccess\\StoreApplication.DataAccess.csproj": {
+                "projectPath": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.DataAccess\\StoreApplication.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.ViewCompilation": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
