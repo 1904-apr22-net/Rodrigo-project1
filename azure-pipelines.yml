@@ -29,14 +29,16 @@ steps:
   inputs:
     command: publish
     publishWebProjects: True
-    arguments: '--configuration $(BuildConfiguration) --output $(- task: AzureRmWebAppDeployment@4
+    arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    zipAfterPublish: True
+
+- task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Project1-StoreApplication'
     appType: 'webApp'
     WebAppName: 'rodsalomon-StoreApplication'
-    packageForLinux: '$(Build.ArtifactStagingDirectory)/**/*.zip')'
-    zipAfterPublish: True
+    packageForLinux: '$(Build.ArtifactStagingDirectory)/**/*.zip'
 
 # - task: AzureRmWebAppDeployment@3
 #   inputs:
