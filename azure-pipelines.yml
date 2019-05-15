@@ -23,3 +23,4 @@ steps:
     command: test
     projects: 'StoreApplication/StoreApplication.Test/StoreApplication.Test.csproj'
     arguments: '--configuration $(buildConfiguration)'
+- task: PublishBuildArtifacts@1
