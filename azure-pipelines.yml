@@ -34,3 +34,17 @@ steps:
 #     publishFeedCredentials: '<Name of the NuGet service connection>'
 #     versioningScheme: byEnvVar
 #     versionEnvVar: <VersionVariableName>
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: publish
+    publishWebProjects: True
+    arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    zipAfterPublish: True
+
+- task: AzureRmWebAppDeployment@3
+  inputs:
+    azureSubscription: 'Project1-StoreApplication'
+    WebAppName: 'rodsalomon-storeapplication'
+    Package: $(System.ArtifactsDirectory)/**/*.zip
+
