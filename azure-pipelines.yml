@@ -26,10 +26,4 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: pack
-    packagesToPack: 'StoreApplication/StoreApplication.WebUI/StoreApplication.WebUI.csproj'
-- task: NuGetCommand@2
-  displayName: 'NuGet push'
-  inputs:
-    command: push
-    #publishVstsFeed: '<feedName>'
-    allowPackageConflicts: true
+    packagesToPack: 'StoreApplication/StoreApplication.sln'
