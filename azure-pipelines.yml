@@ -27,10 +27,10 @@ steps:
   inputs:
     command: pack
     packagesToPack: 'StoreApplication/StoreApplication.WebUI/StoreApplication.WebUI.csproj -IncludeReferencedProjects'
-- task: NuGetCommand@2
-  inputs:
-    command: push
-    nuGetFeedType: external
-    publishFeedCredentials: '<Name of the NuGet service connection>'
-    versioningScheme: byEnvVar
-    versionEnvVar: <VersionVariableName>
+# - task: NuGetCommand@2
+#   inputs:
+#     command: push
+#     nuGetFeedType: external
+#     publishFeedCredentials: '<Name of the NuGet service connection>'
+#     versioningScheme: byEnvVar
+#     versionEnvVar: <VersionVariableName>
