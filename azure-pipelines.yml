@@ -16,3 +16,13 @@ variables:
 steps:
 - script: dotnet build --configuration $(buildConfiguration) $(solutionPath)
   displayName: 'dotnet build $(buildConfiguration) $(solutionPath)'
+- script: dotnet restore
+- task: DotNetCoreCLI@2
+  displayName: Build
+  inputs:
+    command: build
+    projects: 'StoreApplication.WebUI/StoreApplication.WebUI.csproj'
+    arguments: '--configuration Release' # Update this to match your need
+# ...
+# do this near the end of your pipeline in most cases
+- task: PublishBuildArtifacts@1
