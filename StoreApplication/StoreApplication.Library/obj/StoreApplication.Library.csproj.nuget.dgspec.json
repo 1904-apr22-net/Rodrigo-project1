@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj": {}
+    "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj": {}
   },
   "projects": {
-    "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj": {
+    "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj",
+        "projectUniqueName": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj",
         "projectName": "StoreApplication.Library",
-        "projectPath": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj",
-        "packagesPath": "C:\\Users\\Associate\\.nuget\\packages\\",
-        "outputPath": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.Library\\obj\\",
+        "projectPath": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj",
+        "packagesPath": "C:\\Users\\Revature\\.nuget\\packages\\",
+        "outputPath": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Associate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Revature\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

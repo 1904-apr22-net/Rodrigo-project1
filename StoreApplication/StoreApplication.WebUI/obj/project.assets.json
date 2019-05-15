@@ -12988,23 +12988,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Associate\\.nuget\\packages\\": {},
+    "C:\\Users\\Revature\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.WebUI\\StoreApplication.WebUI.csproj",
+      "projectUniqueName": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.WebUI\\StoreApplication.WebUI.csproj",
       "projectName": "StoreApplication.WebUI",
-      "projectPath": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.WebUI\\StoreApplication.WebUI.csproj",
-      "packagesPath": "C:\\Users\\Associate\\.nuget\\packages\\",
-      "outputPath": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.WebUI\\obj\\",
+      "projectPath": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.WebUI\\StoreApplication.WebUI.csproj",
+      "packagesPath": "C:\\Users\\Revature\\.nuget\\packages\\",
+      "outputPath": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Associate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Revature\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13017,8 +13017,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.DataAccess\\StoreApplication.DataAccess.csproj": {
-              "projectPath": "C:\\Revature\\rodrigo-code\\Project1\\StoreApplication\\StoreApplication.DataAccess\\StoreApplication.DataAccess.csproj"
+            "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.DataAccess\\StoreApplication.DataAccess.csproj": {
+              "projectPath": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.DataAccess\\StoreApplication.DataAccess.csproj"
             }
           }
         }

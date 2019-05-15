@@ -7,3 +7,12 @@ C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.Library\obj\
 C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.Library\obj\Debug\netstandard2.0\StoreApplication.Library.AssemblyInfo.cs
 C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.Library\obj\Debug\netstandard2.0\StoreApplication.Library.dll
 C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.Library\obj\Debug\netstandard2.0\StoreApplication.Library.pdb
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.Library\bin\Debug\netstandard2.0\StoreApplication.Library.deps.json
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.Library\bin\Debug\netstandard2.0\StoreApplication.Library.dll
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.Library\bin\Debug\netstandard2.0\StoreApplication.Library.pdb
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.Library\obj\Debug\netstandard2.0\StoreApplication.Library.csprojAssemblyReference.cache
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.Library\obj\Debug\netstandard2.0\StoreApplication.Library.csproj.CoreCompileInputs.cache
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.Library\obj\Debug\netstandard2.0\StoreApplication.Library.AssemblyInfoInputs.cache
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.Library\obj\Debug\netstandard2.0\StoreApplication.Library.AssemblyInfo.cs
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.Library\obj\Debug\netstandard2.0\StoreApplication.Library.dll
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.Library\obj\Debug\netstandard2.0\StoreApplication.Library.pdb

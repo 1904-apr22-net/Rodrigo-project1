@@ -10,3 +10,15 @@ C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.DataAccess\o
 C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.DataAccess\bin\Debug\netstandard2.0\StoreApplication.Library.dll
 C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.DataAccess\bin\Debug\netstandard2.0\StoreApplication.Library.pdb
 C:\Revature\rodrigo-code\Project1\StoreApplication\StoreApplication.DataAccess\obj\Debug\netstandard2.0\StoreApplication.DataAccess.csproj.CopyComplete
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.DataAccess\bin\Debug\netstandard2.0\StoreApplication.DataAccess.deps.json
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.DataAccess\bin\Debug\netstandard2.0\StoreApplication.DataAccess.dll
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.DataAccess\bin\Debug\netstandard2.0\StoreApplication.DataAccess.pdb
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.DataAccess\bin\Debug\netstandard2.0\StoreApplication.Library.dll
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.DataAccess\bin\Debug\netstandard2.0\StoreApplication.Library.pdb
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.DataAccess\obj\Debug\netstandard2.0\StoreApplication.DataAccess.csprojAssemblyReference.cache
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.DataAccess\obj\Debug\netstandard2.0\StoreApplication.DataAccess.csproj.CoreCompileInputs.cache
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.DataAccess\obj\Debug\netstandard2.0\StoreApplication.DataAccess.AssemblyInfoInputs.cache
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.DataAccess\obj\Debug\netstandard2.0\StoreApplication.DataAccess.AssemblyInfo.cs
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.DataAccess\obj\Debug\netstandard2.0\StoreApplication.DataAccess.csproj.CopyComplete
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.DataAccess\obj\Debug\netstandard2.0\StoreApplication.DataAccess.dll
+C:\Revature\Project1\Rodrigo-project1\StoreApplication\StoreApplication.DataAccess\obj\Debug\netstandard2.0\StoreApplication.DataAccess.pdb

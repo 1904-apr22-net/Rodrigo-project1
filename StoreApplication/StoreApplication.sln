@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreApplication.WebUI", "StoreApplication.WebUI\StoreApplication.WebUI.csproj", "{2D418782-66A7-4030-955B-8DBBF78A7AFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreApplication.WebUI", "StoreApplication.WebUI\StoreApplication.WebUI.csproj", "{2D418782-66A7-4030-955B-8DBBF78A7AFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreApplication.Library", "StoreApplication.Library\StoreApplication.Library.csproj", "{941AA11F-662A-44DA-9183-36C05E7FBD91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreApplication.Library", "StoreApplication.Library\StoreApplication.Library.csproj", "{941AA11F-662A-44DA-9183-36C05E7FBD91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreApplication.DataAccess", "StoreApplication.DataAccess\StoreApplication.DataAccess.csproj", "{4E9FD620-3D7D-455B-9F77-44802DA30404}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreApplication.DataAccess", "StoreApplication.DataAccess\StoreApplication.DataAccess.csproj", "{4E9FD620-3D7D-455B-9F77-44802DA30404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreApplication.Test", "StoreApplication.Test\StoreApplication.Test.csproj", "{70E087C3-60B3-454E-9B10-5FD826A71AF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{4E9FD620-3D7D-455B-9F77-44802DA30404}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E9FD620-3D7D-455B-9F77-44802DA30404}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E9FD620-3D7D-455B-9F77-44802DA30404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E087C3-60B3-454E-9B10-5FD826A71AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E087C3-60B3-454E-9B10-5FD826A71AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E087C3-60B3-454E-9B10-5FD826A71AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E087C3-60B3-454E-9B10-5FD826A71AF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
