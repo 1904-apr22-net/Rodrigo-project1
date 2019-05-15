@@ -34,7 +34,7 @@ steps:
 
 - task: AzureRmWebAppDeployment@3
   inputs:
-    azureSubscription: 'Project1'
+    azureSubscription: 'Project 1- StoreApplication'
     WebAppName: 'rodsalomon-storeapplication'
     Package: $(System.ArtifactsDirectory)/**/*.zip
 
