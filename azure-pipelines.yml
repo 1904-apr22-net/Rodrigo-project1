@@ -23,4 +23,13 @@ steps:
     command: test
     projects: 'StoreApplication/StoreApplication.Test/StoreApplication.Test.csproj'
     arguments: '--configuration $(buildConfiguration)'
-- task: PublishBuildArtifacts@1
+- task: NuGetCommand@2
+  inputs:
+    command: pack
+    packagesToPack: 'StoreApplication/StoreApplication.WebUI/StoreApplication.WebUI.csproj'
+- task: NuGetCommand@2
+  displayName: 'NuGet push'
+  inputs:
+    command: push
+    #publishVstsFeed: '<feedName>'
+    allowPackageConflicts: true
