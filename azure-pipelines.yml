@@ -19,7 +19,13 @@ steps:
 # ...
 # do this after other tasks such as building
 - script: dotnet test
+  workingDirectory: $(StoreApplication/StoreApplication.Test/StoreApplication.Test.csproj)
   displayName: 'dotnet test'
+
+
+
+
+
 # - task: DotNetCoreCLI@2
 #   inputs:
 #     command: test
