@@ -30,7 +30,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.4",
           "Microsoft.NETCore.App": "2.2.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3",
-          "StoreApplication.DataAccess": "1.0.0"
+          "StoreApplication.DataAccess": "1.0.0",
+          "StoreApplication.Library": "1.0.0"
         },
         "runtime": {
           "StoreApplication.WebUI.dll": {}

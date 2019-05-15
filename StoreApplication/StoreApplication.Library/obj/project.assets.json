@@ -179,7 +179,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Revature\\.nuget\\packages\\": {},
+    "C:\\Users\\Associate\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -188,14 +188,14 @@
       "projectUniqueName": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj",
       "projectName": "StoreApplication.Library",
       "projectPath": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj",
-      "packagesPath": "C:\\Users\\Revature\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Associate\\.nuget\\packages\\",
       "outputPath": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.Library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Revature\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Associate\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

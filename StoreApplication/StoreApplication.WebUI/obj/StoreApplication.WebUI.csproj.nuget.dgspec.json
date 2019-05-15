@@ -10,14 +10,14 @@
         "projectUniqueName": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.DataAccess\\StoreApplication.DataAccess.csproj",
         "projectName": "StoreApplication.DataAccess",
         "projectPath": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.DataAccess\\StoreApplication.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Revature\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Associate\\.nuget\\packages\\",
         "outputPath": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Revature\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Associate\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,14 +70,14 @@
         "projectUniqueName": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj",
         "projectName": "StoreApplication.Library",
         "projectPath": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj",
-        "packagesPath": "C:\\Users\\Revature\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Associate\\.nuget\\packages\\",
         "outputPath": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Revature\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Associate\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -122,14 +122,14 @@
         "projectUniqueName": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.WebUI\\StoreApplication.WebUI.csproj",
         "projectName": "StoreApplication.WebUI",
         "projectPath": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.WebUI\\StoreApplication.WebUI.csproj",
-        "packagesPath": "C:\\Users\\Revature\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Associate\\.nuget\\packages\\",
         "outputPath": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.WebUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Revature\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Associate\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -144,6 +144,9 @@
             "projectReferences": {
               "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.DataAccess\\StoreApplication.DataAccess.csproj": {
                 "projectPath": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.DataAccess\\StoreApplication.DataAccess.csproj"
+              },
+              "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj": {
+                "projectPath": "C:\\Revature\\Project1\\Rodrigo-project1\\StoreApplication\\StoreApplication.Library\\StoreApplication.Library.csproj"
               }
             }
           }
