@@ -11,7 +11,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-  solutionPath: 'C:\Revature\Project1\Rodrigo-project1\StoreApplication'
+  solutionPath: 'Rodrigo-project1\StoreApplication'
 
 steps:
 - script: dotnet build --configuration $(solutionPath)
