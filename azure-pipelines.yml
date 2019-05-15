@@ -11,7 +11,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-  solutionPath: 'Rodrigo-project1/StoreApplication/StoreApplication.sln'
+  solutionPath: 'StoreApplication'
 
 steps:
 - script: dotnet build --configuration $(solutionPath)
