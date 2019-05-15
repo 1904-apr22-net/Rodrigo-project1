@@ -14,5 +14,5 @@ variables:
   solutionPath: 'StoreApplication'
 
 steps:
-- script: dotnet build --configuration $(solutionPath)
+- script: dotnet build --configuration $(buildConfiguration) $(solutionPath)
   displayName: 'dotnet build $(buildConfiguration) $(solutionPath)'
