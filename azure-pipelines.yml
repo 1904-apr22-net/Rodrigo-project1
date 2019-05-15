@@ -18,15 +18,17 @@ steps:
   displayName: 'dotnet build $(buildConfiguration) $(solutionPath)'
 # ...
 # do this after other tasks such as building
-- task: DotNetCoreCLI@2
-  inputs:
-    command: test
-    projects: 'StoreApplication/StoreApplication.Test/StoreApplication.Test.csproj'
-    arguments: '--configuration $(buildConfiguration)'
-- task: NuGetCommand@2
-  inputs:
-    command: pack
-    packagesToPack: 'StoreApplication/StoreApplication.WebUI/StoreApplication.WebUI.csproj -IncludeReferencedProjects'
+- script: dotnet test
+  displayName: 'dotnet test'
+# - task: DotNetCoreCLI@2
+#   inputs:
+#     command: test
+#     projects: 'StoreApplication/StoreApplication.Test/StoreApplication.Test.csproj'
+#     arguments: '--configuration $(buildConfiguration)'
+# - task: NuGetCommand@2
+  # inputs:
+  #   command: pack
+  #   packagesToPack: 'StoreApplication/StoreApplication.WebUI/StoreApplication.WebUI.csproj -IncludeReferencedProjects'
 # - task: NuGetCommand@2
 #   inputs:
 #     command: push
