@@ -26,4 +26,5 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: pack
-    packagesToPack: 'StoreApplication/StoreApplication.sln'
+    #nuget pack Myproject.csproj -IncludeReferencedProjects
+    packagesToPack: 'StoreApplication/StoreApplication.WebUI//StoreApplication.WebUI.csproj -IncludeReferencedProjects'
