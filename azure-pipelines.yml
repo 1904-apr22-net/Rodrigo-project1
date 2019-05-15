@@ -14,15 +14,31 @@ variables:
   solutionPath: 'StoreApplication'
 
 steps:
+
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'sonarcloud-rodsalomon'
+    organization: 'rodsalomon10-github'
+    scannerMode: 'MSBuild'
+    projectKey: 'rodsalomon-storeapplication'
+
+
 - script: dotnet build --configuration $(buildConfiguration) $(solutionPath)
   displayName: 'dotnet build $(buildConfiguration) $(solutionPath)'
-# ...
-# do this after other tasks such as building
+
+
 - task: DotNetCoreCLI@2
   inputs:
     command: test
     projects: '**/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
+
+- task: SonarCloudAnalyze@1
+  inputs:{}
+
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '60'
 
 
 - task: DotNetCoreCLI@2
@@ -40,11 +56,7 @@ steps:
     WebAppName: 'rodsalomon-StoreApplication'
     packageForLinux: '$(Build.ArtifactStagingDirectory)/**/*.zip'
 
-# - task: AzureRmWebAppDeployment@3
-#   inputs:
-#     azureSubscription: 'Project1'
-#     WebAppName: 'rodsalomon-storeapplication'
-#     Package: $(System.ArtifactsDirectory)/**/*.zip
+
 
 
 
