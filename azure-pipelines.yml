@@ -58,6 +58,12 @@ steps:
     WebAppName: 'rodsalomon-StoreApplication'
     packageForLinux: '$(Build.ArtifactStagingDirectory)/**/*.zip'
 
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
+
 
 
 
